@@ -1,5 +1,5 @@
 # import the function to create a db instance
-from mysqlconnection import connectToMySQL
+from flask_app.config.mysqlconnection import connectToMySQL
 # import datetime to convert our datetime to Month Day, Year format
 from datetime import datetime
 
